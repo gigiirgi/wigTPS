@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+}
+
+#logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+#logo:hover {
+    background-color: #65dccc;
+}
+
+#logout {
+    float: right;
+}
+
+#nama {
+    float: left;
+    background-color: #65dccc;
+}
+
+#nama:hover {
+    background-color: #65dccc;
+}
+
+.dropmenu {
+    background: #65dccc;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.dropmenu li {
+    float: left;
+    position: relative;
+    color: #fff;
+    height: 50px;
+    display: block;
+    font: 15px Courier;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.dropmenu li a {
+    color: #fff;
+    display: block;
+    font: 15px Courier;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.dropmenu li:hover { 
+    background: #0cd5ba;
+    position: relative;
+    border-radius: 7px;
+}
+.dropmenu li:hover a {
+    text-decoration: none;
+}
+.dropmenu li:hover ul {
+    background-color: #0cd5ba;
+    border: 2px solid #0FF;
+    border-radius: 5px;
+    left: 25px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border-radius: 10px; height: 30px; }
+.dropmenu li:hover ul li a {
+    background-color: #0cd5ba;
+    border: 0px transparent;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: #0de6cb;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 15px;
+    /*height: 30px;*/
+    /*padding: 5px;*/
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
+
+#menu-bulan {
+    background-color: white;
+    color: black;
+    float: right;
+    margin-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

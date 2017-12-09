@@ -1,0 +1,127 @@
+table {
+  font-family: Arial;
+  color: #000;
+  text-shadow: #fff;
+  background: #AAA;
+  border: #000 0px solid;
+  width: 60%;
+}
+ 
+table th {
+  padding: 2px;
+  border-left:0px solid #000;
+  border-bottom: 1px solid #e0e0e0;
+  background: #ededed;
+  position: center;
+}
+ 
+table th:first-child{  
+  border-left:none;
+  position: center;
+  color: #000;  
+}
+ 
+table tr {
+  text-align: center;
+  padding-left: 20px;
+}
+ 
+table td:first-child {
+  text-align: center;
+  padding-left: 15px;
+  border-left: 0;
+}
+ 
+table td {
+  padding: 5px 15px;
+  border-top: 0px #ffffff;
+  border-bottom: 0px #e0e0e0;
+  border-left: 0px #e0e0e0;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+ 
+table tr:last-child td {
+  border-bottom: 0;
+
+}
+ 
+table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+ 
+table tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+ 
+table tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+.contain {
+   min-height:100%;
+   position:relative;
+}
+
+.header {
+   background:#fff;
+   width: 100%;
+   padding:10px;
+   text-align: center;
+   position: center;
+   font-size: 25px;
+}
+
+.body {
+   padding:10px;
+   padding-bottom:20px;   /* Height of the footer */
+}
+
+.footer {
+   position:absolute;
+   color: #FFF;
+   bottom:0;
+   width:100%;
+   height:25px;   /* Height of the footer */
+   background-color: #65dcdd;
+   text-align: center;
+}
+
+.menu-wrap{
+  background-color: #65dccc;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: Courier;
+}
+
+.menu-wrap ul{
+  float: left;
+  position: left;
+  list-style: none;
+  color: #FFF;
+  font-size: 15px;
+}
+
+.logo {
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 9px;
+}
